@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <button type="button" title="Esconder Sidebar" class="btn btn-primary">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 19.92L8.48003 13.4C7.71003 12.63 7.71003 11.37 8.48003 10.6L15 4.08002" stroke="white"
+            stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    <div class="sidebar-body">
+      <div class="sidebar-info">
+        <div class="sidebar-title">
+          UNIDADE
+        </div>
+        <div class="sidebar-text">
+          Noções básicas sobre Transtorno do Espectro Autista
+        </div>
+      </div>
+      <div class="sidebar-info">
+        <div class="sidebar-title">
+          Módulo
+        </div>
+        <div class="sidebar-text">
+          Cuidado nutricional no Transtorno do Espectro Autista
+        </div>
+      </div>
+      <div class="sidebar-info">
+        <div class="sidebar-title">
+          Conteudista(s)
+        </div>
+        <div class="sidebar-text">
+          Kaline Coelho Dantas Morais
+        </div>
+      </div>
+      <div class="sidebar-disclaimer">
+        Creative Commons 4.0 share-alike
+      </div>
+    </div>
+    <div class="sidebar-footer">
+      <img src="imgs/sedis-logo.png" alt="">
+    </div>
+  </div>
+  <div class="main">
+    <div class="main-header">
+      <img src="imgs/avasus-logo.png" alt="">
+      <div class="main-title">
+        Linha do tempo - Fatos que marcaram a história do TEA
+      </div>
+    </div>
+    <div class="main-body">
+      <div class="main-body-title">
+        Aula 1: Definição, prevalência e etiologia do TEA
+      </div>
+
+      <div class="swiper" id="teaSwiper">
+        <div class="swiper-wrapper" id="swiperWrapper"></div>
+      </div>
+
+      <div class="timeline-nav">
+        <div class="timeline-track" id="timelineTrack"></div>
+      </div>
+    </div>
+    <div class="main-footer">
+      <img src="imgs/logos.png" alt="">
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
